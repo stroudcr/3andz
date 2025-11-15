@@ -34,7 +34,7 @@ export function Header() {
           </nav>
 
           {/* CTA Button */}
-          <Button className="rounded-full px-6">Book a 15-min Call 📞</Button>
+          <Button className="rounded-full px-6">Get Started</Button>
         </div>
       </div>
     </header>
