@@ -8,19 +8,19 @@ export function ApproachSection() {
       number: "01",
       title: "Discovery & Strategy",
       description:
-        "We dive deep into your agency's goals, target audience, and competitive landscape to craft a conversion-focused strategy that aligns with your growth objectives.",
+        "We dive deep into your business goals, target audience, and competitive landscape to craft the best strategy that aligns with your growth objectives.",
     },
     {
       number: "02",
       title: "Design & Prototyping",
       description:
-        "Our team creates stunning, user-centric designs that prioritize conversions. We prototype key interactions and gather feedback before moving to development.",
+        "Our team creates stunning, user-centric designs that prioritize maximizing returns. We prototype key interactions and gather feedback before moving to development.",
     },
     {
       number: "03",
       title: "Development & Integration",
       description:
-        "We build scalable, performant websites using modern technologies. Every integration is seamless, from CRM systems to analytics platforms.",
+        "We build scalable websites using the lastest and greatest technology. Every integration is seamless, from conversion systems to analytics platforms.",
     },
     {
       number: "04",
@@ -32,7 +32,7 @@ export function ApproachSection() {
       number: "05",
       title: "Launch & Growth Support",
       description:
-        "We don't just launch and leave. Our ongoing support ensures your website continues to evolve, scale, and drive results as your agency grows.",
+        "We don't just launch and leave. Our ongoing support ensures your website continues to evolve, scale, and drive results as your business grows.",
     },
   ]
 

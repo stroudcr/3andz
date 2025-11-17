@@ -25,7 +25,7 @@ export function ServicesSection() {
       overlayImage: "/placeholder.svg?height=400&width=300",
     },
     {
-      title: "AI Tools",
+      title: "Customized AI Tools",
       image: "/placeholder.svg?height=400&width=300",
       overlayImage: "/placeholder.svg?height=400&width=300",
     },

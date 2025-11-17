@@ -58,7 +58,7 @@ export function Hero() {
           className="flex justify-center"
         >
           <Button size="lg" className="rounded-full px-8 text-base">
-            Book a 15-min Call 📞
+            Get Started
           </Button>
         </motion.div>
       </div>
