@@ -16,9 +16,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "3&Z - Website Development Agency",
-  description: "Web Development Excellence with AI-Powered Results. Expert website design, SEO optimization, analytics, and conversion tools to grow your business.",
-  generator: "v0.app",
+  title: "3&Z - Web & AI Development Agency",
+  description: "Web Development Excellence with AI-Powered tools. Expert website design, SEO optimization, analytics, and conversion tools to grow your business.",
 }
 
 export default function RootLayout({

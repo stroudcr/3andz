@@ -14,7 +14,7 @@ export function StatsSection() {
           transition={{ duration: 0.8 }}
           className="font-serif text-4xl md:text-5xl lg:text-6xl text-center mb-16 leading-tight text-balance"
         >
-          <span className="text-accent">Driving conversions</span>, scaling agencies, and{" "}
+          <span className="text-accent">Driving conversions</span>, scaling businesses, and{" "}
           <span className="text-accent">transforming growth</span>. Let&apos;s build your success together.
         </motion.h2>
 
@@ -53,7 +53,7 @@ export function StatsSection() {
             </div>
             <h3 className="font-serif text-2xl font-semibold mb-4">Conversion Increase</h3>
             <p className="text-muted-foreground font-sans leading-relaxed">
-              Our strategies have helped agencies achieve up to 85% conversion rate improvements in just one year!
+              Our strategies have helped businesses achieve up to 85% conversion rate improvements in just one year!
             </p>
           </motion.div>
 
@@ -69,9 +69,9 @@ export function StatsSection() {
               <span className="font-serif text-7xl md:text-8xl font-bold">500</span>
               <span className="text-accent text-5xl md:text-6xl font-serif font-bold">+</span>
             </div>
-            <h3 className="font-serif text-2xl font-semibold mb-4">Agency Partners</h3>
+            <h3 className="font-serif text-2xl font-semibold mb-4">Partners</h3>
             <p className="text-muted-foreground font-sans leading-relaxed">
-              More than 500 agencies trust us to deliver websites that drive real business growth.
+              More than 500 businesses trust us to deliver websites that drive real business growth.
             </p>
           </motion.div>
         </div>

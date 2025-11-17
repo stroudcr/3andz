@@ -27,7 +27,7 @@ export function CaseStudiesSection() {
     },
     {
       client: "Nexus Partners",
-      project: "Agency Website Rebuild",
+      project: "Business Website Rebuild",
       metric: "200+ qualified leads/month",
       description: "Strategic redesign focused on lead generation with integrated CRM and automation workflows.",
       image: "/placeholder.svg?height=400&width=600",
@@ -54,7 +54,7 @@ export function CaseStudiesSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto"
           >
-            Real results from agencies we've partnered with to drive growth and conversions.
+            Real results from businesses we've partnered with to drive growth and conversions.
           </motion.p>
         </div>
 

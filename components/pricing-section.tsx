@@ -10,7 +10,7 @@ export function PricingSection() {
       name: "Starter",
       price: "$2,500",
       period: "per project",
-      description: "Perfect for agencies testing the waters with conversion-focused design.",
+      description: "Perfect for businesses establishing a presence on the web.",
       features: [
         "Single landing page design",
         "Mobile responsive",
@@ -23,7 +23,7 @@ export function PricingSection() {
       name: "Professional",
       price: "$7,500",
       period: "per project",
-      description: "Ideal for agencies ready to scale with comprehensive web solutions.",
+      description: "Ideal for businesses ready to scale with comprehensive website that will increase your revenue.",
       features: [
         "Multi-page website (up to 10 pages)",
         "Custom design system",
@@ -39,7 +39,7 @@ export function PricingSection() {
       name: "Enterprise",
       price: "Custom",
       period: "contact us",
-      description: "For agencies needing white-label solutions and ongoing partnership.",
+      description: "For businesses needing white-label solutions and ongoing partnership.",
       features: [
         "Unlimited pages & features",
         "White-label solutions",
@@ -73,7 +73,7 @@ export function PricingSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto"
           >
-            Choose the plan that fits your agency's needs. All plans include our conversion-first approach.
+            Choose the plan that fits your business's needs. All plans include our conversion-first approach.
           </motion.p>
         </div>
 

@@ -6,7 +6,7 @@ const testimonials: Testimonial[] = [
     quote:
       "3&Z transformed our web presence completely. The conversion-focused design they delivered increased our inquiries by 85% in just three months. Their attention to detail and understanding of business needs is unmatched.",
     name: "Sarah Mitchell",
-    role: "Founder, Digital Growth Agency",
+    role: "Founder, Digital Growth Business",
     rating: 5,
   },
   {
