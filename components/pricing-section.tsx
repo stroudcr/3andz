@@ -7,48 +7,47 @@ import { motion } from "framer-motion"
 export function PricingSection() {
   const plans = [
     {
-      name: "Starter",
-      price: "$2,500",
-      period: "per project",
-      description: "Perfect for businesses establishing a presence on the web.",
+      name: "Starter Systems",
+      price: "$1,250",
+      period: "+ $150/mo",
+      description: "Perfect for small or local businesses needing a professional start.",
       features: [
-        "Single landing page design",
-        "Mobile responsive",
-        "2 rounds of revisions",
-        "1 week delivery",
-        "Basic SEO optimization",
+        "1–3 page website or landing page",
+        "Basic branding & templated design",
+        "Contact form & lead capture",
+        "Simple automations",
+        "Hosting & maintenance included",
+        "Minor content tweaks",
+        "Site & form monitoring",
       ],
     },
     {
-      name: "Professional",
-      price: "$7,500",
-      period: "per project",
-      description: "Ideal for businesses ready to scale with comprehensive website that will increase your revenue.",
+      name: "Growth Systems",
+      price: "$2,500",
+      period: "+ $250/mo",
+      description: "For businesses with 5-20 staff ready to increase throughput and revenue.",
       features: [
-        "Multi-page website (up to 10 pages)",
-        "Custom design system",
-        "Unlimited revisions",
-        "2 week delivery",
-        "Advanced SEO & analytics",
-        "CMS integration",
-        "30 days post-launch support",
+        "4–8 page website",
+        "Conversion-focused design",
+        "2–4 key automations",
+        "Basic analytics setup",
+        "Ongoing hosting, backups, updates",
+        "1–2 hours of changes per month",
+        "Monitoring & light optimization",
       ],
       featured: true,
     },
     {
-      name: "Enterprise",
+      name: "Done-For-You Partner",
       price: "Custom",
-      period: "contact us",
-      description: "For businesses needing white-label solutions and ongoing partnership.",
+      period: "tailored to you",
+      description: "For busy owners who want to never touch tech again.",
       features: [
-        "Unlimited pages & features",
-        "White-label solutions",
-        "Dedicated account manager",
-        "Priority support",
-        "Custom integrations",
-        "Ongoing maintenance",
-        "Performance monitoring",
-        "Monthly strategy calls",
+        "Everything in Growth Systems",
+        "Higher priority support",
+        "Multiple integrations (CRM, etc.)",
+        "More hours for changes",
+        "Regular improvement suggestions",
       ],
     },
   ]
@@ -85,9 +84,8 @@ export function PricingSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className={`rounded-2xl p-8 border-2 ${
-                plan.featured ? "bg-background border-primary shadow-lg scale-105" : "bg-background border-border"
-              }`}
+              className={`rounded-2xl p-8 border-2 ${plan.featured ? "bg-background border-primary shadow-lg scale-105" : "bg-background border-border"
+                }`}
             >
               {plan.featured && (
                 <div className="text-xs font-bold text-primary uppercase tracking-wider mb-4">Most Popular</div>

@@ -17,7 +17,7 @@ export function Hero() {
         >
           <span className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground" />
-            {"500+ Websites Delivered"}
+            {"100% Client Satisfaction"}
           </span>
           <span className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground" />

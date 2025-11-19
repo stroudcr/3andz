@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 export function CaseStudiesSection() {
   const caseStudies = [
@@ -68,11 +69,12 @@ export function CaseStudiesSection() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className="group bg-secondary rounded-2xl overflow-hidden border border-border hover:border-primary/50 transition-all duration-300"
             >
-              <div className="aspect-[3/2] overflow-hidden">
-                <img
+              <div className="aspect-[3/2] overflow-hidden relative">
+                <Image
                   src={study.image || "/placeholder.svg"}
                   alt={study.project}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="p-8">

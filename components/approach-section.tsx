@@ -8,7 +8,7 @@ export function ApproachSection() {
       number: "01",
       title: "Discovery & Strategy",
       description:
-        "We dive deep into your business goals, target audience, and competitive landscape to craft the best strategy that aligns with your growth objectives.",
+        "We dive into your business goals, target audience, and competitive landscape to craft the best strategy that aligns with your growth objectives.",
     },
     {
       number: "02",
@@ -74,9 +74,8 @@ export function ApproachSection() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className={`relative flex flex-col md:flex-row items-start md:items-center gap-8 ${
-                  index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-                }`}
+                className={`relative flex flex-col md:flex-row items-start md:items-center gap-8 ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+                  }`}
               >
                 {/* Step Number Circle */}
                 <div className="flex-shrink-0 w-16 h-16 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-serif text-xl font-bold relative z-10 md:absolute md:left-1/2 md:-translate-x-1/2">

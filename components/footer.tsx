@@ -56,20 +56,20 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="mailto:info@3andz.com"
+                  href="mailto:hello@3andz.com"
                   className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
                 >
                   <IconMail className="w-4 h-4" />
-                  info@3andz.com
+                  hello@3andz.com
                 </a>
               </li>
               <li>
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+15550000000"
                   className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
                 >
                   <IconPhone className="w-4 h-4" />
-                  (123) 456-7890
+                  (555) 000-0000
                 </a>
               </li>
             </ul>

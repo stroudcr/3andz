@@ -9,36 +9,49 @@ export function FAQSection() {
 
   const faqs = [
     {
-      question: "What's your typical project timeline?",
+      question: "What services does 3&Z specialize in?",
       answer:
-        "Most projects take 2-4 weeks from kickoff to launch, depending on scope. We provide detailed timelines during our discovery phase and keep you updated throughout the process.",
+        "We specialize in high-end custom web design, full-stack development, brand identity, and digital strategy for forward-thinking companies.",
     },
     {
-      question: "Do you offer custom branding solutions?",
+      question: "How long does a typical web project take?",
       answer:
-        "Yes! We create fully customized websites that perfectly reflect your brand identity. Every element is tailored to match your unique business needs and brand guidelines.",
+        "Most standard projects are completed within 4-8 weeks. Complex web applications or enterprise solutions may take 3-6 months depending on the scope.",
     },
     {
-      question: "What if I need revisions after launch?",
+      question: "Do you provide ongoing support and maintenance?",
       answer:
-        "All our plans include post-launch support. Professional plans get 30 days of support, while Enterprise clients receive ongoing maintenance and updates as part of their package.",
+        "Yes, we offer comprehensive care plans that include security updates, performance monitoring, and content updates to keep your site running smoothly.",
     },
     {
-      question: "Can you work with our existing tech stack?",
+      question: "Is SEO included in the web design process?",
       answer:
-        "Absolutely. We're experienced with all major platforms and frameworks. During discovery, we'll assess your current setup and recommend the best approach for integration.",
+        "Absolutely. We build every website with a \"performance-first\" approach, ensuring technical SEO, fast load times, and mobile responsiveness are baked in from day one.",
     },
     {
-      question: "How do you ensure high conversion rates?",
+      question: "Can you work with our existing brand guidelines?",
       answer:
-        "We use data-driven design principles, A/B testing, and proven conversion optimization techniques. Every design decision is backed by research and best practices from thousands of successful projects.",
+        "Yes, we can strictly adhere to your existing brand guidelines or help you evolve them. We ensure your digital presence is a perfect extension of your brand.",
     },
     {
-      question: "What's included in ongoing support?",
+      question: "What is your pricing structure?",
       answer:
-        "Ongoing support includes bug fixes, security updates, performance monitoring, content updates, and monthly strategy calls to ensure your site continues to perform at its best.",
+        "We offer project-based pricing tailored to your specific needs. Contact us for a detailed proposal. We also have tiered packages for standard websites.",
     },
   ]
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  }
 
   return (
     <section className="py-24 px-6 bg-background">
@@ -97,6 +110,10 @@ export function FAQSection() {
             </motion.div>
           ))}
         </div>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </div>
     </section>
   )

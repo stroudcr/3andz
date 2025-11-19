@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 export function ServicesSection() {
   const services = [
@@ -70,15 +71,19 @@ export function ServicesSection() {
               {/* Image Container */}
               <div className="relative flex-grow flex items-center justify-center mb-6">
                 {/* Back Image */}
-                <img
+                <Image
                   src={service.image || "/placeholder.svg"}
                   alt={`${service.title} showcase`}
+                  width={300}
+                  height={400}
                   className="absolute w-44 h-auto rounded-lg shadow-md transform -rotate-6 transition-all duration-400 ease-in-out group-hover:rotate-[-10deg] group-hover:scale-105"
                 />
                 {/* Front Image */}
-                <img
+                <Image
                   src={service.overlayImage || "/placeholder.svg"}
                   alt={`${service.title} example`}
+                  width={300}
+                  height={400}
                   className="absolute w-44 h-auto rounded-lg shadow-lg transform rotate-3 transition-all duration-400 ease-in-out group-hover:rotate-[5deg] group-hover:scale-105"
                 />
               </div>

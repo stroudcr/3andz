@@ -1,4 +1,5 @@
 import { TestimonialSlider, type Testimonial } from "@/components/ui/testimonial-slider"
+import Image from "next/image"
 
 const testimonials: Testimonial[] = [
   {

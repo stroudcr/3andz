@@ -14,8 +14,8 @@ export function StatsSection() {
           transition={{ duration: 0.8 }}
           className="font-serif text-4xl md:text-5xl lg:text-6xl text-center mb-16 leading-tight text-balance"
         >
-          <span className="text-accent">Driving conversions</span>, scaling businesses, and{" "}
-          <span className="text-accent">transforming growth</span>. Let&apos;s build your success together.
+          We build <span className="text-accent">revenue-generating</span> websites and AI systems. You focus on
+          business, <span className="text-accent">we handle the tech</span>.
         </motion.h2>
 
         {/* Stats Grid */}
@@ -29,13 +29,12 @@ export function StatsSection() {
             className="border-2 border-dashed border-border rounded-3xl p-8 text-center"
           >
             <div className="mb-4">
-              <span className="font-serif text-7xl md:text-8xl font-bold">1,000</span>
-              <span className="text-accent text-5xl md:text-6xl font-serif font-bold">+</span>
+              <span className="font-serif text-7xl md:text-8xl font-bold">100</span>
+              <span className="text-accent text-5xl md:text-6xl font-serif font-bold">%</span>
             </div>
-            <h3 className="font-serif text-2xl font-semibold mb-4">Projects Delivered</h3>
+            <h3 className="font-serif text-2xl font-semibold mb-4">Revenue Focused</h3>
             <p className="text-muted-foreground font-sans leading-relaxed">
-              We&apos;ve successfully completed over 1,000 conversion-focused websites—and we&apos;re just getting
-              started!
+              We build systems designed with one goal in mind: increasing your bottom line through intelligent design and automation.
             </p>
           </motion.div>
 
@@ -48,12 +47,11 @@ export function StatsSection() {
             className="border-2 border-dashed border-border rounded-3xl p-8 text-center"
           >
             <div className="mb-4">
-              <span className="font-serif text-7xl md:text-8xl font-bold">85</span>
-              <span className="text-accent text-5xl md:text-6xl font-serif font-bold">%</span>
+              <span className="font-serif text-7xl md:text-8xl font-bold">24/7</span>
             </div>
-            <h3 className="font-serif text-2xl font-semibold mb-4">Conversion Increase</h3>
+            <h3 className="font-serif text-2xl font-semibold mb-4">AI Operations</h3>
             <p className="text-muted-foreground font-sans leading-relaxed">
-              Our strategies have helped businesses achieve up to 85% conversion rate improvements in just one year!
+              Our AI systems work around the clock to capture leads, analyze data, and optimize your growth while you sleep.
             </p>
           </motion.div>
 
@@ -66,12 +64,11 @@ export function StatsSection() {
             className="border-2 border-dashed border-border rounded-3xl p-8 text-center"
           >
             <div className="mb-4">
-              <span className="font-serif text-7xl md:text-8xl font-bold">500</span>
-              <span className="text-accent text-5xl md:text-6xl font-serif font-bold">+</span>
+              <span className="font-serif text-7xl md:text-8xl font-bold">0</span>
             </div>
-            <h3 className="font-serif text-2xl font-semibold mb-4">Partners</h3>
+            <h3 className="font-serif text-2xl font-semibold mb-4">Tech Headaches</h3>
             <p className="text-muted-foreground font-sans leading-relaxed">
-              More than 500 businesses trust us to deliver websites that drive real business growth.
+              We handle everything technical. You focus on running your business, and we ensure your digital engine runs perfectly.
             </p>
           </motion.div>
         </div>
