@@ -7,28 +7,28 @@ export function ServicesSection() {
   const services = [
     {
       title: "Website Design & Development",
-      image: "/placeholder.svg?height=400&width=300",
-      overlayImage: "/placeholder.svg?height=400&width=300",
+      image: "/images/services/web-design-desktop.png",
+      overlayImage: "/images/services/web-design-mobile.png",
     },
     {
       title: "SEO Optimization",
-      image: "/placeholder.svg?height=400&width=300",
-      overlayImage: "/placeholder.svg?height=400&width=300",
+      image: "/images/services/seo-dashboard.png",
+      overlayImage: "/images/services/seo-search.png",
     },
     {
       title: "Analytics & Insights",
-      image: "/placeholder.svg?height=400&width=300",
-      overlayImage: "/placeholder.svg?height=400&width=300",
+      image: "/images/services/analytics-main.png",
+      overlayImage: "/images/services/analytics-detail.png",
     },
     {
       title: "Conversion Optimization",
-      image: "/placeholder.svg?height=400&width=300",
-      overlayImage: "/placeholder.svg?height=400&width=300",
+      image: "/images/services/cro-funnel.png",
+      overlayImage: "/images/services/cro-success.png",
     },
     {
       title: "Customized AI Tools",
-      image: "/placeholder.svg?height=400&width=300",
-      overlayImage: "/placeholder.svg?height=400&width=300",
+      image: "/images/services/ai-chat.png",
+      overlayImage: "/images/services/ai-network.png",
     },
   ]
 
